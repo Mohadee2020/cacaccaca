@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Especial 💜</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-cover bg-center bg-fixed" style="background-image: url('https://images8.alphacoders.com/666/thumb-1920-666149.jpg')">
+    <div class="min-h-screen flex items-center justify-center p-4">
+        <div class="flex flex-col md:flex-row gap-8 w-full max-w-6xl">
+            <!-- Contenido del tour -->
+            <div class="glass-container p-8 rounded-2xl shadow-2xl w-full md:w-1/2">
+                <div id="step1" class="step active animate-fade-in">
+                    <h1 class="text-3xl font-bold text-white text-shadow mb-6">Bienvenida, mi pequeña saltamontes 💜</h1>
+                    <p class="text-white text-shadow mb-6">Esta es la primera parada de este pequeño tour... Por favor, abre el siguiente corazón en una pestaña nueva, pero no cierres esta porfi 💜💜💜</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://acortar.link/Jt1M7M" target="_blank" class="heart-button bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-110 flex items-center justify-center gap-2">
+                            <span>Abrir corazón</span>
+                            <span class="heart-beat">💚</span>
+                        </a>
+                        <button onclick="nextStep()" class="next-button bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105">
+                            Siguiente
+                        </button>
+                    </div>
+                </div>
+
+                <div id="step2" class="step hidden animate-fade-in">
+                    <h1 class="text-3xl font-bold text-white text-shadow mb-6">Segunda Parada 💜</h1>
+                    <p class="text-white text-shadow mb-6">Espero que te lo estés pasando muy bien amor, te amo te amo te amo 💜💜💜</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://acortar.link/11111" target="_blank" class="heart-button bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-110 flex items-center justify-center gap-2">
+                            <span>Abrir corazón</span>
+                            <span class="heart-beat">💚</span>
+                        </a>
+                        <button onclick="nextStep()" class="next-button bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105">
+                            Siguiente
+                        </button>
+                    </div>
+                </div>
+
+                <div id="step3" class="step hidden animate-fade-in">
+                    <h1 class="text-3xl font-bold text-white text-shadow mb-6">Tercera Parada 💜</h1>
+                    <p class="text-white text-shadow mb-6">Eres la mejor persona que he conocido. Gracias por aparecer en mi vida 💜</p>
+                    <div class="flex flex-wrap gap-4">
+                        <button onclick="nextStep()" class="next-button bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105">
+                            Siguiente
+                        </button>
+                    </div>
+                </div>
+
+                <div id="step4" class="step hidden animate-fade-in">
+                    <h1 class="text-3xl font-bold text-white text-shadow mb-6">Última Parada 💜</h1>
+                    <p class="text-white text-shadow mb-6">Ahora toca esperar al siguiente :)))</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://acortar.com/22222" target="_blank" class="heart-button bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-110 flex items-center justify-center gap-2">
+                            <span>Abrir corazón</span>
+                            <span class="heart-beat">💚</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-6 text-white text-shadow flex justify-between items-center">
+                    <span id="progress" class="font-bold">Paso 1 de 4</span>
+                    <div class="flex gap-2">
+                        <button onclick="prevStep()" class="bg-white bg-opacity-20 hover:bg-opacity-30 text-white font-bold py-2 px-4 rounded-full transition">
+                            Anterior
+                        </button>
+                        <button onclick="nextStep()" class="bg-white bg-opacity-20 hover:bg-opacity-30 text-white font-bold py-2 px-4 rounded-full transition">
+                            Siguiente
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Playlist -->
+            <div class="glass-container p-8 rounded-2xl shadow-2xl w-full md:w-1/2">
+                <h2 class="text-2xl font-bold text-white text-shadow mb-6">Espero que te guste esta playlist mi amor 💜💜💜</h2>
+                <div class="space-y-4 max-h-96 overflow-y-auto playlist-scroll">
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/6cucosmPj-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/0OpnslhxfhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/J6zpTHG4pVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/q8CF5Rse72E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/b1kbLwvqugk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/Z-9gQjUZMm0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/L7uq5Xz92GU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/AHI7JjJlpYo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/sPM9Djf0JO8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/wAjHQXrIj9o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/SxpeOD2uTfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/4fijSHbJ8bw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/oPSqseuhJ6c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/c_JwSkRtC7M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="p-3 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition">
+                        <iframe width="100%" height="60" src="https://www.youtube.com/embed/U6phuhL1YbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
